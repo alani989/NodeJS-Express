@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "run.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alani989/NodeJS-Express.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Alani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alani989/NodeJS-Express/issues"
+  },
+  "homepage": "https://github.com/alani989/NodeJS-Express#readme"
+}
