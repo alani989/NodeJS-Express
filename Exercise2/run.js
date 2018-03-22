@@ -3,7 +3,7 @@ var reload = require('reload')
 var app = express();
 
 // making views-style file public and accessible
-app.use(express.static('/views-style'));
+app.use(express.static('./views-style'));
 // config to enable using ejs
 app.set('view engine', 'ejs');
 // config to enable using routes
