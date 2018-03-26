@@ -1,0 +1,32 @@
+{ "animals":
+[{  
+    "name":"Cat 1",
+    "description":"At birth, a kitten’s ears and eyes are tightly sealed, and he is completely helpless. A newborn kitten spends his time sleeping and nursing. The first two weeks are a time of rapid growth and development. As he gets his fill of nourishing milk, the little kitten becomes stronger in preparation for the day he will see and hear. At this tender age, if the mother cat thinks her young ones are in danger, she’s likely to pick up each one by grabbing the loose skin at the back of the neck and carrying her baby to a safer spot.",
+    "imgURL":"images/cat1.jpg"
+ },
+ {  
+    "name":"Cat 2",
+    "description":"At birth, a kitten’s ears and eyes are tightly sealed, and he is completely helpless. A newborn kitten spends his time sleeping and nursing. The first two weeks are a time of rapid growth and development. As he gets his fill of nourishing milk, the little kitten becomes stronger in preparation for the day he will see and hear. At this tender age, if the mother cat thinks her young ones are in danger, she’s likely to pick up each one by grabbing the loose skin at the back of the neck and carrying her baby to a safer spot.",
+    "imgURL":"images/cat2.jpg"
+ },
+ {  
+    "name":"Cat 3",
+    "description":"At birth, a kitten’s ears and eyes are tightly sealed, and he is completely helpless. A newborn kitten spends his time sleeping and nursing. The first two weeks are a time of rapid growth and development. As he gets his fill of nourishing milk, the little kitten becomes stronger in preparation for the day he will see and hear. At this tender age, if the mother cat thinks her young ones are in danger, she’s likely to pick up each one by grabbing the loose skin at the back of the neck and carrying her baby to a safer spot.",
+    "imgURL":"images/cat3.jpg"
+ },
+ {  
+    "name":"Dog 1",
+    "description":"Dogs are often called man's best friend because they fit in with human life. Man refers to humankind and not just guys (Old English). Dogs can serve people in many ways. For example, there are guard dogs, hunting dogs, herding dogs, guide dogs for blind people, and police dogs. There are also dogs that are trained to smell for diseases in the human body or to find bombs or illegal drugs. These dogs sometimes help police in airports or other areas. Sniffer dogs (usually beagles) are sometimes trained for this job. Dogs have even been sent by Russians into outer space, a few years before any human being. The first dog sent up was named Laika, but she died within a few hours.",
+    "imgURL":"images/dog1.jpg"
+ },
+ {  
+    "name":"Dog 2",
+    "description":"Dogs are often called man's best friend because they fit in with human life. Man refers to humankind and not just guys (Old English). Dogs can serve people in many ways. For example, there are guard dogs, hunting dogs, herding dogs, guide dogs for blind people, and police dogs. There are also dogs that are trained to smell for diseases in the human body or to find bombs or illegal drugs. These dogs sometimes help police in airports or other areas. Sniffer dogs (usually beagles) are sometimes trained for this job. Dogs have even been sent by Russians into outer space, a few years before any human being. The first dog sent up was named Laika, but she died within a few hours.",
+    "imgURL":"images/dog2.jpg"
+ },
+ {  
+    "name":"Dog 3",
+    "description":"Dogs are often called man's best friend because they fit in with human life. Man refers to humankind and not just guys (Old English). Dogs can serve people in many ways. For example, there are guard dogs, hunting dogs, herding dogs, guide dogs for blind people, and police dogs. There are also dogs that are trained to smell for diseases in the human body or to find bombs or illegal drugs. These dogs sometimes help police in airports or other areas. Sniffer dogs (usually beagles) are sometimes trained for this job. Dogs have even been sent by Russians into outer space, a few years before any human being. The first dog sent up was named Laika, but she died within a few hours.",
+    "imgURL":"images/dog3.jpg"
+ }]
+}

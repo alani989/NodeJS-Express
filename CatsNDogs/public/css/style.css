@@ -1,0 +1,23 @@
+body {
+    font-family: 'Trebuchet MS';
+}
+.myHeader {
+    background-color: black;
+    color: aliceblue;
+}
+.mainContainer {
+    border: 1px solid black;
+    padding: 5%;
+}
+.animalImage {
+    width: 350px;
+    height: 270px;
+}
+.infoContainer {
+    color: whitesmoke;
+    background-color: brown;
+    height: 270px;
+}
+#FeedbackLink {
+    font-size: 50px;
+}
