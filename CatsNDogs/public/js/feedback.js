@@ -10,13 +10,12 @@ $(function () {
         }, updateFeedback);
     });
 
-
     function updateFeedback(data) {
         var output = '';
         $.each(data, function (key, item) {
             output += '     <div class="feedback-item item-list media-list">';
             output += '       <div class="feedback-item media">';
-            output += '       <div class="media-left"><button class="feedback-delete btn btn-xs btn-danger"><span id="' + key + '" class="glyphicon glyphicon-remove"></span></button></div>';
+            output += '       <div class="media-left"><button class="feedback-delete btn btn-xs btn-danger" id="' + key + '"><span class="glyphicon glyphicon-remove"></span></button></div>';
             output += '         <div class="feedback-info media-body">';
             output += '           <div class="feedback-head">';
             output += '             <div class="feedback-title">' + item.title + ' <small class="feedback-name label label-info">' + item.name + '</small></div>';
@@ -27,5 +26,16 @@ $(function () {
             output += '     </div>';
         });
         $('.feedback-messages').html(output);
+
+        var feedbackID = $(this).attr('id');
+
+        $('.feedback-delete').click(function (e) {
+            e.preventDefault();
+            $.ajax({
+                url: "/api/feedbackID",
+                type: 'DELETE'
+            },updateFeedback);
+
+        });
     }
 });
