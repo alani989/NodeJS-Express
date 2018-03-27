@@ -6,8 +6,10 @@ app.use(express.static('./public'));
 // config to enable using ejs
 app.set('view engine', 'ejs');
 // access to routes
-app.use(require('./routes/home.js'));
-app.use(require('./routes/feedback.js'));
+app.use(require('./routes/home-route.js'));
+app.use(require('./routes/feedback-route.js'));
+app.use(require('./routes/api.js'));
+
 
 
 
