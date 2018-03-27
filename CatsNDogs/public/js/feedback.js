@@ -10,6 +10,8 @@ $(function () {
         }, updateFeedback);
     });
 
+    
+
     function updateFeedback(data) {
         var output = '';
         $.each(data, function (key, item) {
@@ -27,15 +29,16 @@ $(function () {
         });
         $('.feedback-messages').html(output);
 
-        var feedbackID = $(this).attr('id');
-
+        
         $('.feedback-delete').click(function (e) {
+            var feedbackID = $(this).attr('id');
             e.preventDefault();
             $.ajax({
                 url: "/api/feedbackID",
-                type: 'DELETE'
-            },updateFeedback);
-
+                type: 'DELETE',
+                success: updateFeedback
+            });
         });
+
     }
 });
